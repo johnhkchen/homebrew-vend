@@ -1,10 +1,10 @@
 class Vend < Formula
   desc "Local-first runner for repeatable, gated AI-agent playbooks"
   homepage "https://github.com/johnhkchen/vend"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/johnhkchen/vend/releases/download/v0.1.0/vend-cli-aarch64-apple-darwin.tar.xz"
-    sha256 "80013554c65115c1a0db50e3824115efd15850026ae75c2eace6dd1f45057c02"
+    url "https://github.com/johnhkchen/vend/releases/download/v0.2.0/vend-cli-aarch64-apple-darwin.tar.xz"
+    sha256 "96f7a39d794676f65c5ddc263511659a0fe5dfdb19b5d6a83bd79e36c01dcce2"
   end
   license "MIT"
 
